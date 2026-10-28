@@ -23,7 +23,7 @@ EAT = pytz.timezone("Africa/Nairobi")
 TIMES = {
     "Fajr": "04:50",
     "Dhuhr": "12:30",
-    "Asr": "15:40",
+    "Asr": "13:21",
     "Maghrib": "18:15",
     "Isha": "19:30"
 }
