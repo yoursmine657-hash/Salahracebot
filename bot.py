@@ -16,7 +16,7 @@ threading.Thread(target=run_flask, daemon=True).start()
 TOKEN = os.getenv("TOKEN")
 GROUP_ID = -1003710189896
 EAT = pytz.timezone("Africa/Nairobi")
-TIMES = {"Fajr":"05:30","Dhuhr":"13:00","Asr":"16:15","Maghrib":"18:45","Isha":"20:00"}
+TIMES = {"Fajr":"05:30","Dhuhr":"12:40","Asr":"16:15","Maghrib":"18:45","Isha":"20:00"}
 sent_times = set()
 leaderboard = {}
 claimed_today = {}
